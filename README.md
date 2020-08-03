@@ -21,11 +21,11 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 * ISO/TS 18308
 > Structure necessities |&ensp;  34/50 &ensp;| (60.8%)  
 > Process necessities &ensp;|&ensp; 22/24 &ensp;| (91.7%)  
-> Others &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;|&ensp;  21/50 &ensp;| (42.0%)  
+> Others &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;|&ensp;  21/50 &ensp; | (42.0%)  
 * ASTM E 1384
 > Structure necessities |&ensp;  49/50 &ensp;| (98.0%)  
 > Process necessities &ensp;|&ensp; 23/24 &ensp;| (95.8%)  
-> Others &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;|&ensp;  39/40 &ensp;| (78.0%)  
+> Others &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;|&ensp;  39/40 &ensp; | (78.0%)  
 
 
 
