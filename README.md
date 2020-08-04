@@ -6,6 +6,10 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 * Build natural language task model that incorporate word embeddings, entity recognition and text classification for clinical text records.  
 * Design a basic GUI application for demonstration purpose.  
 
+## Requirements
+* **SpeechRecognition** 
+> pip3 install SpeechRecognition -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 ## Relative Abbreviation
 > **EMR** - Electronic Medical Records  
 > **EHR** - Electronic Health Records  
@@ -28,5 +32,7 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 > Others &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|&ensp;  39/40 &ensp;| (78.0%)  
 
 ## Reference
-* [Compare Spacy, coreNLP and NLTK](https://blog.csdn.net/weixin_33278772/article/details/89135777)
-
+* [Compare Spacy, coreNLP and NLTK](https://blog.csdn.net/weixin_33278772/article/details/89135777)  
+* [Use Stanford CoreNLP in Python](https://blog.csdn.net/qq_35203425/article/details/80451243)  
+* [Automatic Speech Recognition using baidu API](https://blog.csdn.net/weixin_40796925/article/details/98041155)
+* [baidu NLP_Python_SDK](http://ai.baidu.com/ai-doc/NLP/tk6z52b9z)
