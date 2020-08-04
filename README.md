@@ -27,5 +27,6 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 > Process necessities &ensp;|&ensp; 23/24 &ensp;| (95.8%)  
 > Others &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|&ensp;  39/40 &ensp;| (78.0%)  
 
-
+## Reference
+* [Compare Spacy, coreNLP and NLTK](https://blog.csdn.net/weixin_33278772/article/details/89135777)
 
