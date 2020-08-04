@@ -7,8 +7,11 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 * Design a basic GUI application for demonstration purpose.  
 
 ## Requirements
-* **SpeechRecognition** 
-> pip3 install SpeechRecognition -i https://pypi.tuna.tsinghua.edu.cn/simple
+* **SpeechRecognition**  
+> pip3 install SpeechRecognition -i https://pypi.tuna.tsinghua.edu.cn/simple  
+* **pyaudio**  
+> brew install portaudio  
+> pip3 install pyaudio  
 
 ## Relative Abbreviation
 > **EMR** - Electronic Medical Records  
@@ -36,3 +39,4 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 * [Use Stanford CoreNLP in Python](https://blog.csdn.net/qq_35203425/article/details/80451243)  
 * [Automatic Speech Recognition using baidu API](https://blog.csdn.net/weixin_40796925/article/details/98041155)
 * [baidu NLP_Python_SDK](http://ai.baidu.com/ai-doc/NLP/tk6z52b9z)
+* [baidu Speech Recognition API instruction](https://ai.baidu.com/ai-doc/SPEECH/1k4o0bmc7)

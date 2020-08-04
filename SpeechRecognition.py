@@ -11,8 +11,8 @@ def get_token():
     #获取token
     baidu_server = "https://openapi.baidu.com/oauth/2.0/token?"
     grant_type = "client_credentials"
-    client_id = "up7sdaBHdk09sbMk1l6ijszx"
-    client_secret = "XmoFEcE4i8ErqBbnuSlgWb2B81AKXard"
+    client_id = "vXSGRTBflzpKFqMOKIqbfMb6"
+    client_secret = "vQlsg2vPRsHdtS6WQ75mNtLMgrGQEBLu"
 
     #拼url
     url = f"{baidu_server}grant_type={grant_type}&client_id={client_id}&client_secret={client_secret}"
@@ -32,9 +32,11 @@ def audio_baidu(filename):
     data = {
         "format": "wav",
         "rate": "16000",
-        "dev_pid": "1536",
+        # 1537 for chinese, 1737 for english
+        "dev_pid": "1537",
+        "lan": "en",
         "speech": speech,
-        "cuid": "TEDxPY",
+        "cuid": "dc:a9:04:72:13:4b",
         "len": size,
         "channel": 1,
         "token": token,
