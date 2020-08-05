@@ -33,8 +33,8 @@ def audio_baidu(filename):
         "format": "wav",
         "rate": "16000",
         # 1537 for chinese, 1737 for english
-        "dev_pid": "1537",
-        "lan": "en",
+        "dev_pid": "1737",
+        #"lan": "en",
         "speech": speech,
         "cuid": "dc:a9:04:72:13:4b",
         "len": size,
@@ -54,23 +54,23 @@ def audio_baidu(filename):
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
+    # logging.basicConfig(level=logging.INFO)
 
     wav_num = 0
-    while True:
-        r = sr.Recognizer()
-        #启用麦克风
-        mic = sr.Microphone()
-        logging.info('录音中...')
-        with mic as source:
-            #降噪
-            r.adjust_for_ambient_noise(source)
-            audio = r.listen(source)
-        with open(f"00{wav_num}.wav", "wb") as f:
-            #将麦克风录到的声音保存为wav文件
-            f.write(audio.get_wav_data(convert_rate=16000))
-        logging.info('录音结束，识别中...')
-        target = audio_baidu(f"00{wav_num}.wav")
-        if target == -1:
-            break
-        wav_num += 1
+    # while True:
+    #     r = sr.Recognizer()
+    #     #启用麦克风
+    #     mic = sr.Microphone()
+    #     logging.info('录音中...')
+    #     with mic as source:
+    #         #降噪
+    #         r.adjust_for_ambient_noise(source)
+    #         audio = r.listen(source)
+    #     with open(f"00{wav_num}.wav", "wb") as f:
+    #         #将麦克风录到的声音保存为wav文件
+    #         f.write(audio.get_wav_data(convert_rate=16000))
+    #     logging.info('录音结束，识别中...')
+    target = audio_baidu(f"00{wav_num}.wav")
+        # if target == -1:
+        # #     break
+        # wav_num += 1
