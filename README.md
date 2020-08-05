@@ -19,9 +19,11 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 > **CCIS** - Critical Care Information System  
 > **CDA** - Clinical Document Architecture  
 > **EHR** - Electronic Health Records  
->> longitudinal health data on the population across care settings  
+>> longitudinal health data on the population across care settings
+
 > **EMR** - Electronic Medical Records  
->> patient records for clinical purposes  
+>> patient records for clinical purposes
+
 > **HIE** - Health Information Exchange  
 > **HIMS** - Health Information Management System  
 > **HIS** - Hospital Information System  
