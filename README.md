@@ -44,17 +44,17 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 > Others &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;|&ensp;  39/40 &ensp;| (78.0%)  
 
 ## Data Standards
-> NEHTA Clinical Data Standards  
-> IT – Metadata Registries (MDR) – Part 3: Registry metamodel and basic attributes (ISO/IEC 11179-3:2003(E))  
-> HL7 Clinical Document Architecture(CDA)  
+* NEHTA Clinical Data Standards  
+* IT – Metadata Registries (MDR) – Part 3: Registry metamodel and basic attributes (ISO/IEC 11179-3:2003(E))  
+* HL7 Clinical Document Architecture(CDA)  
 
 ## Construction of Personal Electronic Healthcare Records
-> All medical institutions at any level must establish the medical record management system using a unique EMR identification (ID) number.  
-> The medical record ID number should also be linked with the ID number of patients.  
-> MoH instituted a Standards Bureau Office and series of standards in reference to architecture, regulations, and function profiles of EMRs.  
-> Most of the health care s.ervice providers have set up its own EHRs system.  
-> EHRs are connected to health insurance systems for settlement of claims with the special ID number for patients.  
-> Resident Health Card connects the individual's EHR and EMR and provides a special connection for inter-institutional and trans-regional data sharing.  
+* All medical institutions at any level must establish the medical record management system using a unique EMR identification (ID) number.  
+* The medical record ID number should also be linked with the ID number of patients.  
+* MoH instituted a Standards Bureau Office and series of standards in reference to architecture, regulations, and function profiles of EMRs.  
+* Most of the health care s.ervice providers have set up its own EHRs system.  
+* EHRs are connected to health insurance systems for settlement of claims with the special ID number for patients.  
+* Resident Health Card connects the individual's EHR and EMR and provides a special connection for inter-institutional and trans-regional data sharing.  
 
 ## Benifits of EMRs System
 1. improves patient care quality  
