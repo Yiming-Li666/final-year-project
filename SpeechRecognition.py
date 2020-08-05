@@ -9,7 +9,7 @@ import speech_recognition as sr
 def get_token():
     logging.info('开始获取token...')
     #获取token
-    baidu_server = "https://openapi.baidu.com/oauth/2.0/token?"
+    baidu_server = "https://openapi.baidu.com/oauth/2.0/token"
     grant_type = "client_credentials"
     client_id = "vXSGRTBflzpKFqMOKIqbfMb6"
     client_secret = "vQlsg2vPRsHdtS6WQ75mNtLMgrGQEBLu"

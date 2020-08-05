@@ -4,25 +4,12 @@ import sys
 import json
 import time
 
-IS_PY3 = sys.version_info.major == 3
+from urllib.request import urlopen
+from urllib.request import Request
+from urllib.error import URLError
+from urllib.parse import urlencode
+timer = time.perf_counter
 
-if IS_PY3:
-    from urllib.request import urlopen
-    from urllib.request import Request
-    from urllib.error import URLError
-    from urllib.parse import urlencode
-    timer = time.perf_counter
-else:
-    import urllib2
-    #from urllib2 import urlopen
-    #from urllib2 import Request
-    #from urllib2 import URLError
-    from urllib import urlencode
-    if sys.platform == "win32":
-        timer = time.clock
-    else:
-        # On most other platforms the best timer is time.time()
-        timer = time.time
 
 API_KEY = 'vXSGRTBflzpKFqMOKIqbfMb6'
 SECRET_KEY = 'vQlsg2vPRsHdtS6WQ75mNtLMgrGQEBLu'
@@ -56,25 +43,23 @@ def fetch_token():
               'client_id': API_KEY,
               'client_secret': SECRET_KEY}
     post_data = urlencode(params)
-    if (IS_PY3):
-        post_data = post_data.encode('utf-8')
+
+    post_data = post_data.encode('utf-8')
     req = Request(TOKEN_URL, post_data)
     try:
         f = urlopen(req)
         result_str = f.read()
     except URLError as err:
         print('token http response http code : ' + str(err.code))
-        result_str = err.read()
-    if (IS_PY3):
-        result_str = result_str.decode()
+    result_str = result_str.decode()
 
-    print(result_str)
+    #print(result_str)
     result = json.loads(result_str)
     print(result)
     if ('access_token' in result.keys() and 'scope' in result.keys()):
         if not SCOPE in result['scope'].split(' '):
             raise DemoError('scope is not correct')
-        print('SUCCESS WITH TOKEN: %s ; EXPIRES IN SECONDS: %s' % (result['access_token'], result['expires_in']))
+        #print('SUCCESS WITH TOKEN: %s ; EXPIRES IN SECONDS: %s' % (result['access_token'], result['expires_in']))
         return result['access_token']
     else:
         raise DemoError('MAYBE API_KEY or SECRET_KEY not correct: access_token or scope not found in token response')
@@ -117,8 +102,13 @@ if __name__ == '__main__':
         print('asr http response http code : ' + str(err.code))
         result_str = err.read()
 
-    if (IS_PY3):
-        result_str = str(result_str, 'utf-8')
-    print(result_str)
-    with open("result.txt", "w") as of:
-        of.write(result_str)
+    result_str = result_str.decode()
+
+    #print(result_str)
+    result = json.loads(result_str)
+    #result_str = str(result_str, 'utf-8')
+    #print(result_str[60:])
+    print(result['result'])
+
+    # with open("result.txt", "w") as of:
+    #     of.write(result_str)

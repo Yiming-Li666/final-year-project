@@ -1,1 +1,1 @@
-{"corpus_no":"6857329105173151441","err_msg":"success.","err_no":0,"result":["nice to meet you"],"sn":"317635989861596596348"}
+{"corpus_no":"6857335792495731654","err_msg":"success.","err_no":0,"result":["nice to meet you"],"sn":"7406716391596597906"}
