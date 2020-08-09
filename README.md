@@ -66,6 +66,26 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 7. improves charge capture  
 8. minimises billing errors  
 
+## Use of Voice Technologies
+1. documentation
+2. commands
+3. interactive response and navigation for patients
+
+## NLP library
+1. Spacy
+2. CoreNLP
+3. NLTK
+> since version 3.2.3 has a new interface to Stanford CoreNLP using the StanfordCoreNLPServer. Among other places, see instructions on using the dependency parser and the code for this module, and if you poke around the documentation, you can find equivalent interfaces to other CoreNLP components; for example here is Stanford CoreNLP NER. Much of the work for this was done by Dmitrijs Milajevs.
+4. stanfordcorenlp 
+> by Lynten Guo. A Python wrapper to Stanford CoreNLP server, version 3.8.0. Also: PyPI page.
+pycorenlp, A Python wrapper for Stanford CoreNLP by Smitha Milli that uses the new CoreNLP v3.6+ server. Available on PyPI.
+5. corenlp-pywrap 
+> by Sherin Thomas also uses the new CoreNLP v3.6+ server. Python 3.x (only). Also: PyPI page.
+6. pynlp
+> A (Pythonic) Python wrapper for Stanford CoreNLP by Sina. PyPI page.
+7. stanfordnlp
+
+
 ## Reference
 * [Compare Spacy, coreNLP and NLTK](https://blog.csdn.net/weixin_33278772/article/details/89135777)  
 * [Use Stanford CoreNLP in Python](https://blog.csdn.net/qq_35203425/article/details/80451243)  
