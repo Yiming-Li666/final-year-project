@@ -1,0 +1,28 @@
+Mark: 8%
+max. 5000 words
+max. 15 page
+
+structure{
+	introduction
+	motivation
+	related work
+	description of the work methodology
+	design
+	implementation
+	progress{
+		project management{
+			review of work-plan(from proposal)
+			how do you manage your resourse/time?
+			review the workplan and provide explanation/reasons for adjusting
+			Gantt chart
+		}
+		contribution & reflections{
+			achievements and contributions up to date
+			A personal reflection on the plan and experience of the project
+		}
+		
+	}
+	bibliography
+}
+
+rubric on Moodle

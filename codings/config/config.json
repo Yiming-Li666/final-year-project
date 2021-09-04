@@ -1,0 +1,16 @@
+{
+  "symptom_dataset_path": "../../dataset/symptom dataset",
+
+  "cate_path": "cate.json",
+  "sub_path": "sub.json",
+  "sub2_path": "sub2.json",
+  
+  "workbook": "symptom.xlsx",
+  "new_workbook": "symptom.xlsx",
+
+  "Host_url": "https://www.haodf.com",
+
+  "main_category": "qitakeshi",
+  "sheet_index": 29
+
+}

@@ -12,6 +12,17 @@ Doctors are overwhelmed by clerical work. A 2016 study estimates that doctors sp
 * **pyaudio**  
 > brew install portaudio  
 > pip3 install pyaudio  
+* **noisereduce**
+> pip3 install wavio  
+> pip3 install wave  
+> pip3 install noisereduce  
+* **jieba nlp library**
+> pip3 install jieba  
+* **requests**
+> pip3 install requests  
+* **Pyqt5**
+> pip3 install opencv-contrib-python-headless -i "https://pypi.doubanio.com/simple/"  
+> pip3 install opencv-python-headless -i "https://pypi.doubanio.com/simple/"
 
 ## Relative Abbreviation
 > **ADEs** - adverse drug events  
@@ -84,11 +95,36 @@ pycorenlp, A Python wrapper for Stanford CoreNLP by Smitha Milli that uses the n
 6. pynlp
 > A (Pythonic) Python wrapper for Stanford CoreNLP by Sina. PyPI page.
 7. stanfordnlp
-
+8. jieba
+> for chinese words split
 
 ## Reference
+### NLP  
 * [Compare Spacy, coreNLP and NLTK](https://blog.csdn.net/weixin_33278772/article/details/89135777)  
 * [Use Stanford CoreNLP in Python](https://blog.csdn.net/qq_35203425/article/details/80451243)  
-* [Automatic Speech Recognition using baidu API](https://blog.csdn.net/weixin_40796925/article/details/98041155)
-* [baidu NLP_Python_SDK](http://ai.baidu.com/ai-doc/NLP/tk6z52b9z)
-* [baidu Speech Recognition API instruction](https://ai.baidu.com/ai-doc/SPEECH/1k4o0bmc7)
+* [baidu NLP_Python_SDK](http://ai.baidu.com/ai-doc/NLP/tk6z52b9z)  
+* [A collection of Chinese Word Segmentation Tools](https://blog.csdn.net/qq_33431368/article/details/92473779)
+* [jieba - Chinese Word Segmentation Tools](https://github.com/fxsjy/jieba)
+
+### Speach recognition  
+* [Physician Dictation Audio Dataset](https://www.ezdi.com/open-datasets/)
+* [Speech Recognition using baidu API](https://blog.csdn.net/weixin_40796925/article/details/98041155)  
+* [Speech Recognition using google API](https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/79832700?utm_source=blogxgwz7)  
+* [baidu Speech Recognition API instruction](https://ai.baidu.com/ai-doc/SPEECH/1k4o0bmc7)  
+
+### EMR & EHR
+* [EMR Information](https://baike.baidu.com/item/电子病历系统/8441290?fr=aladdin)
+* [EHR Information](https://wenku.baidu.com/view/348d5a18a300a6c30c229fec.html)
+
+### Noise reduce Reference
+1. [Works, but get only noise](https://github.com/GedasFX/Audio-Noise-Reduction/blob/master/main.py)
+2. [Formal documentation, but not working](https://pypi.org/project/noisereduce/)
+3. [Online, like jupter. Seems to work, but it add a specific noise first and then remove it. There is a parameter 'noise_clip', he added this by himself, so that he can identify the noise_clip and directly remove it. Need VPN](https://colab.research.google.com/github/timsainb/noisereduce/blob/master/notebooks/1.0-test-noise-reduction.ipynb#scrollTo=GOxI8LTDBRNR)
+4. [This is the same with 3, which has a better user experience](https://timsainburg.com/noise-reduction-python.html#:~:text=%20Noise%20reduction%20in%20python%20using%20¶%20,prototypical%20noise%20of%20the%20audio%20clip%20More%20)
+5. [This one works, but get only noise. Need to include 'nextpow2', which cannot be install by pip. I added 'nextpow2.py' in ./google_voice_Demo](https://blog.csdn.net/iTaacy/article/details/60141849)
+6. [Not working](https://blog.csdn.net/a1040193597/article/details/99598173?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)
+
+### Others
+* [openpyxl - A Python library to read/write Excel 2010 xlsx/xlsm files](https://openpyxl.readthedocs.io/en/stable/)
+* [Text similarity comparision - difflib & Levenshtein](https://blog.csdn.net/github_37443078/article/details/86552838)  
+* [Text similarity comparision - fuzzywuzzy](https://blog.csdn.net/wumian0123/article/details/81435680)

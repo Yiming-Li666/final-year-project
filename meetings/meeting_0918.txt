@@ -1,0 +1,16 @@
+Done:
+-labelling
+
+Start:
+-collecting cases
+--Doctor upload audio
+---diagnose has different info(drags, recommendation departments or some notice)
+--length of the content
+--name of the drags.
+--similar description among different disease.
+
+Next:
+record one audio, try the API
+LSTN/Transformer(text-wise)
+LSTN easier-give weight to previous history/even next one
+trans better-a lot of layer

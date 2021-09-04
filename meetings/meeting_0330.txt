@@ -1,0 +1,25 @@
+switch to English
+kaggle
+
+main:
+speech recognition{
+	comparision{
+		news recording: text the accuracy
+	}
+}
+text anaylsis{
+	structure{
+		doctor follow the structure
+	}
+	// doctor to retrieve the EHR
+}
+extra work{
+	predictions
+}
+//preliminary work on the prediction – auto-diagnose
+or simple and basic
+-- challenge: data collection
+the data is insufficient to train
+low
+result is not achieve the expectation
+// future work

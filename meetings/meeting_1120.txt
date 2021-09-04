@@ -1,0 +1,16 @@
+mode to use own Dictionary
+read Paper
+interim report
+binary logic when searching
+
+
+level 0-2
+{
+	function
+	use experience
+}
+how AI can increase the quality of EHR
+automated report generation{
+	automatically from back-end
+	infrustructure/framework
+}

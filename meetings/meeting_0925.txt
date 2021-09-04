@@ -1,0 +1,21 @@
+Done:
+-test on baidu API
+--works perfect on the specific name of drags
+--good performance when there includes Alphabets
+--high accuracy
+
+Require:
+-ethics
+-proposal
+--deadline
+--2000 words
+
+Next:
+-nlp google preprocessing words(back of words)
+-nature language processing in python(ML->DL)
+-proposal
+--deadline:10/16
+-paper
+--EMR/EHR
+--nlp
+--text-wise machine learning 

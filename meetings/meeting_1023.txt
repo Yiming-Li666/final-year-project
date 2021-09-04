@@ -1,0 +1,11 @@
+Done:
+- Wrote a similarity compare algorithm
+- Updated a compare table
+-- Keyword abstraction
+-- Text rank 
+- Collected more cases in database
+
+TODO:
+- prototype in EHR
+- keywords first - trigger
+- ML for disease prediction

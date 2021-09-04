@@ -1,0 +1,14 @@
+1. LSTM demo process Chinese sentances which aims to do sentiment analysis
+2. dataset (10 disease and 100 cases for each of the disease) - hard to find so many cases /high repetitive rate
+3. New user interface for predicting diseases (for the patient to decribe their sympotoms and receive primary prediction from the LSTM model without the doctor)
+4. Improve some of the previous code and do the tests on the system
+
+
+bert
+1. download bert from google
+2. Q&A pattern
+
+decision support system
+--miss by doctors(support system)
+motivation: reduce working load
+data collection

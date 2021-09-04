@@ -1,0 +1,10 @@
+literature review
+
+LSTM
+
+overleaf{
+	template{
+		phd - more examples
+	}
+}
+Tables generator

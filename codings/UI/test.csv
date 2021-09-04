@@ -1,0 +1,8 @@
+Prop,Info
+Patient Name,张三李四
+Patient ID,20031525
+Date,2020年2月10日16点
+Sympotom,咳嗽和发烧
+Disease,感冒或者发烧
+Treatment,吃感冒药
+WholeText,病人名字：张三李四，年龄35岁，号码20031525，就诊时间2020年2月10日16点。症状为：咳嗽和发烧。诊断为感冒或者发烧。建议吃感冒药，比如感冒灵。

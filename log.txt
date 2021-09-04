@@ -1,0 +1,40 @@
+before 2020.08.24
+Read papers.
+Search for format of EHR and EMR.
+Search for voice recognition API.
+Wrote voice recognition demos using BAIDU API and GOOGLE API.
+Search for audio dataset and symptom dataset.
+Search for existing nlp libraries.
+Search for noise reduction algorithms.
+
+2020.08.24
+Wrote a website grab algorithm to get all the disease category info and write into xlsx file.
+Solved website demonstration bug after grabbing by replacing gb2312 to utf-8 in charset.
+
+2020.08.31
+Reorgnized the file folder.
+Bug found in "生殖中心" category because of difference from previous pages(no span tag). Manually done this page.
+The same bug in "男科", "皮肤美容科", "烧伤科".
+
+2020.09.06
+Finish all the labelling work(29 in total).
+
+2020.09.18
+Meeting.
+Tested baidu API on some of the cases.
+
+2020.09.25
+Meeting.
+
+2020.09.26-2020.10.05
+Read book, Text Analytics with Python, and searched related websites.
+
+2020.10.08
+Added two more references for nlp.
+Added timetable.
+Read more articles.
+
+2020.10.09 - 2020.10.16
+Tested a Chinese language processing method.
+Read more articles.
+Wrote proposal.

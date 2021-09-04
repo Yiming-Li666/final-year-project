@@ -1,0 +1,13 @@
+Done:
+read book
+--Expanding Contractions(P118)
+----"wasn't" -> "was not"
+----maybe can use to map drug names to diseases
+--POS taggers(P138)
+----maybe can use to get keywords
+--Recommended shallow parsers(P143)
+Tried jieba library
+--use_paddle
+--add dictionary
+Done the timetable planning
+-Timetable

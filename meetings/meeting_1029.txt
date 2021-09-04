@@ -1,0 +1,9 @@
+Done:
+Basic UI development
+divded code into MVC pattern
+
+Question:
+Chinese/English
+
+In English
+Implement the functions
